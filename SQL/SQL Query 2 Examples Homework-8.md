@@ -13,7 +13,7 @@
 ### Çözüm:
 
 <li>3-UPDATE <br>
-<code>UPDATE employee
+UPDATE employee
 SET first_name = 'aydin '
 WHERE id = 1
 RETURNING *;<br>
@@ -30,9 +30,9 @@ WHERE id = 1;<br>
 UPDATE employee
 SET birthday = '2022-01-01'
 WHERE id = 1;<br>
-</code></li>
+</li>
 <li>4-DELETE <br>
-<code>DELETE FROM employee
+DELETE FROM employee
 WHERE id = 1;<br>
 DELETE FROM employee
 WHERE first_name ='necmi';<br>
@@ -42,4 +42,4 @@ DELETE FROM employee
 WHERE birthday ='2021-01-09';<br>
 DELETE FROM employee
 WHERE id ='1903';
-</code></li>
+</li>
