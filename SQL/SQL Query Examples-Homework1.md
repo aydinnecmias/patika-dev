@@ -10,9 +10,7 @@ Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden ger�
 Çözüm:  
 1 -<code>SELECT title, description FROM film;</code> 
 2 -<code>SELECT * FROM film WHERE length > 60 and length < 75;</code> 
-3 -<code> SELECT * FROM film WHERE rental_rate = 0.99 AND replacement_cost = 12.99 OR replacement_cost = 28.99);
-</code>
-4-<code>SELECT last_name FROM customer WHERE first_name = 'Mary';</code>
-5 -<code>SELECT * FROM film 
-WHERE  NOT length  > 50  AND NOT( rental_rate = 2.99 OR rental_rate = 4.99)  ;</code>
+3 -<code>SELECT * FROM film WHERE rental_rate = 0.99 AND replacement_cost = 12.99 OR replacement_cost = 28.99);</code>
+4 -<code>SELECT last_name FROM customer WHERE first_name = 'Mary';</code>
+5 -<code>SELECT * FROM film WHERE  NOT length  > 50  AND NOT( rental_rate = 2.99 OR rental_rate = 4.99)  ;</code>
 </pre>
