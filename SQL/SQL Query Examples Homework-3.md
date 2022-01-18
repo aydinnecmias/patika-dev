@@ -15,6 +15,6 @@
 <ol>
 <li><code>SELECT * FROM country WHERE country LIKE 'A%a';</code></li>
 <li><code>SELECT * FROM country WHERE country LIKE '______%n';</code></li>
-<li><code>SELECT * FROM film WHERE title ILIKE '____%t%';</code></li>
+<li><code>SELECT * FROM film WHERE title ILIKE '%t%t%t%t%';</code></li>
 <li><code>SELECT * FROM film WHERE title LIKE 'C%' AND length > 90 AND rental_rate = 2.99;</code></li>
  </ol>
